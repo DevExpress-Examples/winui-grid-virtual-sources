@@ -7,7 +7,7 @@
 
 This example demonstrates how to bind the [GridControl](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.GridControl) to [InfiniteAsyncSource](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.InfiniteAsyncSource).
 
-![image](https://user-images.githubusercontent.com/65009440/165083739-a21b5fa7-95bf-4632-ab93-7d6c7e12c49f.png)
+![image](https://user-images.githubusercontent.com/65009440/165083739-a21b5fa7-95bf-4632-ab93-7d6c7e12c49f.png) 
 
 Refer to the following tutorial for more information: [Virtual Sources](http://docs.devexpress.com/WinUI/100312/controls/data-grid/bind-to-data/virtual-sources).
 
