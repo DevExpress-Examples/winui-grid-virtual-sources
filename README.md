@@ -24,4 +24,3 @@ Refer to the following tutorial for more information: [Virtual Sources](http://d
 ## More Examples
 
 - [WinUI Data Grid - Get Started](https://github.com/DevExpress-Examples/winui-grid-get-started)
-- [WinUI GridControl - Print GridControl Data in Code](https://github.com/DevExpress-Examples/winui-gridcontrol-print-grid-data)
