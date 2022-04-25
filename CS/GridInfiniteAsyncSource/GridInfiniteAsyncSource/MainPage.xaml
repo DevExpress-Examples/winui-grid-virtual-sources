@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="GridInfiniteAsyncSource.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GridInfiniteAsyncSource"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:dxg="using:DevExpress.WinUI.Grid"
+    mc:Ignorable="d">
+    <dxg:GridControl x:Name="grid" AutoGenerateColumns="False" ShowFixedTotalSummary="True">
+        <dxg:GridControl.Columns>
+            <dxg:GridTextColumn FieldName="Subject" Width="150"/>
+            <dxg:GridTextColumn FieldName="User" Width="50"/>
+            <dxg:GridDateColumn FieldName="Created" Width="50" MaskType="DateTime" Mask="g" AllowSorting="True" AllowFiltering="True" FilterPopupMode="DateSmart"/>
+            <dxg:GridTextColumn FieldName="Votes" Width="50" AllowSorting="True" AllowFiltering="True" AllowedBinaryFilters="GreaterOrEqual" FilterPopupMode="Excel"/>
+            <dxg:GridTextColumn FieldName="Priority" Width="50" AllowFiltering="True" AllowedBinaryFilters="Equals" FilterPopupMode="List"/>
+        </dxg:GridControl.Columns>
+        <dxg:GridControl.TotalSummary>
+            <dxg:GridTotalSummaryItem SummaryType="Count" Alignment="Right"/>
+            <dxg:GridTotalSummaryItem SummaryType="Max" FieldName="Created" 
+                                      Caption="Last created:" Alignment="Right"/>
+        </dxg:GridControl.TotalSummary>
+    </dxg:GridControl>
+</Page>
