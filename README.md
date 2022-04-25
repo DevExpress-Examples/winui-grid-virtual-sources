@@ -2,28 +2,25 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1084586)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Product/Platform - Task
+# WinUI Data Grid - Bind to InfiniteAsyncSource
 
-This is the repository template for creating new examples. Describe the solved task here.
+This example demonstrates how to bind the [GridControl](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.GridControl) to [InfiniteAsyncSource](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.InfiniteAsyncSource).
 
-Put a screenshot that illustrates the result here.
+![image](https://user-images.githubusercontent.com/65009440/165083739-a21b5fa7-95bf-4632-ab93-7d6c7e12c49f.png)
 
-Then, add implementation details (steps, code snippets, and other technical information in a free form), or add a link to an existing document with implementation details. 
+Refer to the following tutorial for more information: [Virtual Sources](http://docs.devexpress.com/WinUI/100312/controls/data-grid/bind-to-data/virtual-sources).
 
 ## Files to Look At
 
-- link.cs (VB: link.vb)
-- link.js
-- ...
+- [MainPage.xaml](./CS/GridInfiniteAsyncSource/GridInfiniteAsyncSource/MainPage.xaml)
+- [MainPage.xaml.cs](./CS/GridInfiniteAsyncSource/GridInfiniteAsyncSource/MainPage.xaml.cs)
 
 ## Documentation
 
-- link
-- link
-- ...
+- [Virtual Sources](http://docs.devexpress.com/WinUI/100312/controls/data-grid/bind-to-data/virtual-sources)
+- [WinUI Data Grid](http://docs.devexpress.com/WinUI/102040/controls/data-grid)
 
 ## More Examples
 
-- link
-- link
-- ...
+- [WinUI Data Grid - Get Started](https://github.com/DevExpress-Examples/winui-grid-get-started)
+- [WinUI GridControl - Print GridControl Data in Code](https://github.com/DevExpress-Examples/winui-gridcontrol-print-grid-data)
