@@ -9,7 +9,7 @@ This example demonstrates how to bind the [GridControl](http://docs.devexpress.c
 
 ![image](https://user-images.githubusercontent.com/65009440/165083739-a21b5fa7-95bf-4632-ab93-7d6c7e12c49f.png) 
 
-Refer to the following tutorial for more information: [Virtual Sources](http://docs.devexpress.com/WinUI/100312/controls/data-grid/bind-to-data/virtual-sources).
+Refer to the following tutorial for more information: [Virtual Sources](http://docs.devexpress.com/WinUI/100312/controls/data-grid/bind-to-data/virtual-sources?v=22.1).
 
 ## Files to Look At
 
@@ -18,7 +18,7 @@ Refer to the following tutorial for more information: [Virtual Sources](http://d
 
 ## Documentation
 
-- [Virtual Sources](http://docs.devexpress.com/WinUI/100312/controls/data-grid/bind-to-data/virtual-sources)
+- [Virtual Sources](http://docs.devexpress.com/WinUI/100312/controls/data-grid/bind-to-data/virtual-sources?v=22.1)
 - [WinUI Data Grid](http://docs.devexpress.com/WinUI/102040/controls/data-grid)
 
 ## More Examples
