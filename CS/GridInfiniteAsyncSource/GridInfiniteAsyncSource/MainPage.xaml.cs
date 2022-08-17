@@ -26,9 +26,6 @@ namespace GridInfiniteAsyncSource {
                     var values = Enum.GetValues(typeof(Priority)).Cast<object>().ToArray();
                     e.Result = Task.FromResult(values);
                 }
-                else if (e.PropertyName != "Created") {
-                    throw new InvalidOperationException();
-                }
             };
             source.GetTotalSummaries += (o, e) => {
                 e.Result = GetTotalSummariesAsync(e);
